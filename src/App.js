@@ -10,7 +10,7 @@ class  App extends Component {
     render(){
     return (
         
-        <BrowserRouter basename="/reactjs-Profile/">
+        <BrowserRouter basename="/react-Profile/">
          <div >
              <Navbar/>
             <Route path='/' exact component={Index}/>
